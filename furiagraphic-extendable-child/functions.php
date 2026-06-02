@@ -964,7 +964,7 @@ function fg_site_end() {
             <div class="fg-contact-icon">⌘</div>
             <div class="fg-contact-text">
               <span>Discord</span>
-              <a href="https://discord.gg/dVJGyB9U2R" target="_blank" rel="noopener noreferrer"><?php echo esc_html(fg_t('Entra nel server', 'Join the server')); ?></a>
+              <a href="https://discord.gg/JDwSuKFeh8" target="_blank" rel="noopener noreferrer"><?php echo esc_html(fg_t('Entra nel server', 'Join the server')); ?></a>
             </div>
           </div>
         </div>

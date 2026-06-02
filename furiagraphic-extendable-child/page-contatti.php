@@ -5,7 +5,7 @@ defined('ABSPATH') || exit;
 $diagnosi_url        = 'https://hub.furiagraphic.com/diagnosi-gratuita';
 $hub_url             = 'https://hub.furiagraphic.com';
 $contact_form_url    = fg_contact_form_url();
-$discord_url         = 'https://discord.gg/dVJGyB9U2R';
+$discord_url         = 'https://discord.gg/JDwSuKFeh8';
 $fg_contact_feedback = fg_get_contact_form_feedback();
 
 fg_site_start('contatti');
