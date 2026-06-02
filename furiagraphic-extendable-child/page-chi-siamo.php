@@ -5,8 +5,40 @@ fg_site_start('chi-siamo');
 $en = fg_is_en();
 ?>
 
-<section class="fg-section fg-about-page">
+<section class="fg-page-hero home-hero fg-about-hero">
+  <div class="fg-hero-bg"></div>
+  <div class="fg-hero-grid"></div>
+  <div class="fg-hero-light fg-hero-light-one"></div>
+  <div class="fg-hero-light fg-hero-light-two"></div>
+
   <div class="fg-container">
+    <div class="fg-hero-inner fg-about-hero-inner">
+      <div class="fg-hero-copy fg-about-hero-copy fg-reveal is-visible">
+        <div class="fg-eyebrow fg-hero-eyebrow"><?php echo esc_html(fg_t('Chi è FuriaGraphic', 'About FuriaGraphic')); ?></div>
+
+        <h1 class="fg-hero-title">
+          <?php echo esc_html(fg_t('Design digitale con', 'Digital design with')); ?>
+          <span class="fg-gold-text"><?php echo esc_html(fg_t('direzione, ordine e carattere.', 'direction, order and character.')); ?></span>
+        </h1>
+
+        <p class="fg-hero-sub"><?php echo esc_html(fg_t('FuriaGraphic aiuta brand, freelance, piccole attività e creator a presentarsi meglio online con identità visive, siti e asset digitali costruiti per comunicare in modo più chiaro e riconoscibile.', 'FuriaGraphic helps brands, freelancers, small businesses and creators present themselves better online with visual identities, websites and digital assets built to communicate with more clarity and recognition.')); ?></p>
+
+        <div class="fg-hero-actions">
+          <a class="fg-button is-primary" href="<?php echo esc_url(fg_url('/contatti/')); ?>"><?php echo esc_html(fg_t('Racconta il tuo progetto', 'Share your project')); ?></a>
+          <a class="fg-button is-secondary" href="<?php echo esc_url(fg_url('/portfolio/')); ?>"><?php echo esc_html(fg_t('Guarda i lavori', 'View the work')); ?></a>
+        </div>
+      </div>
+
+      <div class="fg-hero-visual fg-about-hero-visual fg-reveal is-visible">
+        <div class="fg-about-photo-card">
+          <img class="fg-about-photo-media" src="https://www.furiagraphic.com/wp-content/uploads/2026/04/80c3056b-e100-4d5e-a434-64e39055dbde-e1775924768388.jpg" alt="FuriaGraphic studio creativo digitale">
+          <div class="fg-about-photo-glow"></div>
+          <div class="fg-about-photo-border"></div>
+          <div class="fg-about-photo-content">
+            <div class="fg-about-photo-label">Creative Digital Studio</div>
+            <h3>FuriaGraphic</h3>
+            <p><?php echo esc_html(fg_t('Logo, siti web, brand identity e grafiche digitali progettati con criterio, cura e una direzione visiva riconoscibile.', 'Logos, websites, brand identities and digital graphics designed with intention, care and a recognizable visual direction.')); ?></p>
+          </div>
     <div class="fg-page-title-wrap fg-reveal is-visible fg-page-title-wrap--left">
       <div class="fg-section-kicker"><?php echo esc_html(fg_t('Chi è FuriaGraphic', 'About FuriaGraphic')); ?></div>
       <h1 class="fg-page-title"><?php echo wp_kses_post(fg_t('Design digitale con <span class="fg-gold-text">direzione, ordine e carattere</span>', 'Digital design with <span class="fg-gold-text">direction, order and character</span>')); ?></h1>
@@ -28,6 +60,15 @@ $en = fg_is_en();
           <p><?php echo esc_html(fg_t('Logo, siti web, brand identity e grafiche digitali progettati con criterio, cura e una direzione visiva riconoscibile.', 'Logos, websites, brand identities and digital graphics designed with intention, care and a recognizable visual direction.')); ?></p>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="fg-section fg-about-intro-section">
+  <div class="fg-container">
+    <div class="fg-about-copy fg-reveal is-visible">
+      <p><?php echo esc_html(fg_t('Ogni progetto parte da una domanda semplice: cosa deve percepire chi ti incontra per la prima volta? Da lì nascono scelte su stile, struttura, ritmo, testi e dettagli.', 'Every project starts from a simple question: what should people feel when they meet you for the first time? From there come decisions on style, structure, rhythm, copy and details.')); ?></p>
+      <p><?php echo esc_html(fg_t('Il design diventa uno strumento, non una decorazione: deve rendere il progetto più comprensibile, più credibile e più facile da ricordare.', 'Design becomes a tool, not decoration: it should make the project clearer, more credible and easier to remember.')); ?></p>
     </div>
   </div>
 </section>
