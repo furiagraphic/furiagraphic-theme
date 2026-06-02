@@ -85,7 +85,7 @@ function fg_service_categories() {
             'title_it' => 'Siti web chiari, curati e orientati al contatto',
             'title_en' => 'Websites, landing pages and redesigns with clear structure and a premium look',
             'short_it' => 'Siti vetrina, landing page e restyling responsive pensati per spiegare, convincere e generare contatti.',
-            'short_en' => 'Showcase websites, landing pages and responsive redesigns built to explain, convince and generate enquiries.',
+            'short_en' => 'Showcase websites, landing pages and responsive redesigns built to explain better, build trust and make enquiry easier.',
             'url' => '/servizi/web-design/',
             'contact_category' => 'web-design',
         ],
@@ -96,8 +96,8 @@ function fg_service_categories() {
             'menu_en' => 'Streaming pack',
             'title_it' => 'Overlay e grafiche per live più riconoscibili',
             'title_en' => 'Overlays, panels and stream screens for more recognizable live content',
-            'short_it' => 'Asset coordinati per Twitch, YouTube e creator che vogliono una live più curata senza caos visivo.',
-            'short_en' => 'Coordinated assets for Twitch, YouTube and creators who want a polished stream without visual clutter.',
+            'short_it' => 'Asset coordinati per Twitch, YouTube e creator che vogliono una live più pulita, personale e riconoscibile senza caos visivo.',
+            'short_en' => 'Coordinated assets for Twitch, YouTube and creators who want a cleaner, more personal and recognizable stream without visual clutter.',
             'url' => '/servizi/streaming-pack/',
             'contact_category' => 'streaming',
         ],
@@ -408,81 +408,81 @@ function fg_seo_data($key = null) {
         'home' => [
             'it' => [
                 'title' => 'FuriaGraphic | Branding, Web Design e Streaming Pack',
-                'description' => 'Branding, siti web e streaming pack su misura per freelance, piccole attività e creator che vogliono un’immagine online più chiara, curata e riconoscibile.',
+                'description' => 'Identità visive, siti web e streaming pack per freelance, attività e creator che vogliono una presenza online più chiara, premium e riconoscibile.',
             ],
             'en' => [
                 'title' => 'FuriaGraphic | Branding, Web Design & Streaming Packs',
-                'description' => 'Custom branding, websites and streaming packs for freelancers, small businesses and creators who want a clearer, more polished and recognizable online presence.',
+                'description' => 'Visual identities, websites and streaming packs for freelancers, businesses and creators who want a clearer, premium and more recognizable online presence.',
             ],
         ],
         'servizi' => [
             'it' => [
                 'title' => 'Servizi | Branding, Web Design e Streaming Pack | FuriaGraphic',
-                'description' => 'Tre percorsi puliti per costruire un’immagine più forte: branding e graphic design, web design e streaming pack personalizzati.',
+                'description' => 'Tre percorsi per costruire una presenza più solida: branding e graphic design, web design e streaming pack coordinati.',
             ],
             'en' => [
                 'title' => 'Services | Branding, Web Design and Streaming Packs | FuriaGraphic',
-                'description' => 'Three clean paths to build a stronger image: branding and graphic design, web design and custom streaming packs.',
+                'description' => 'Three paths to build a stronger presence: branding and graphic design, web design and coordinated streaming packs.',
             ],
         ],
         'servizi-graphic-design' => [
             'it' => [
                 'title' => 'Branding e Graphic Design | Logo e Identità Visiva | FuriaGraphic',
-                'description' => 'Logo, identità visiva, palette, grafiche social e materiali coordinati per rendere brand, attività e creator più riconoscibili.',
+                'description' => 'Logo, identità visiva, palette, social kit e materiali coordinati per rendere brand, attività e creator più solidi e riconoscibili.',
             ],
             'en' => [
                 'title' => 'Branding and Graphic Design | Logos and Visual Identity | FuriaGraphic',
-                'description' => 'Logos, visual identity, palettes, social graphics and coordinated assets to make brands, businesses and creators more recognizable.',
+                'description' => 'Logos, visual identity, palettes, social kits and coordinated assets to make brands, businesses and creators stronger and more recognizable.',
             ],
         ],
         'servizi-web-design' => [
             'it' => [
                 'title' => 'Web Design | Siti Web, Landing e Restyling | FuriaGraphic',
-                'description' => 'Siti web personalizzati, landing page e restyling responsive con struttura chiara, look premium e percorsi orientati al contatto.',
+                'description' => 'Siti web, landing page e restyling responsive con struttura chiara, look premium e percorsi pensati per facilitare il contatto.',
             ],
             'en' => [
                 'title' => 'Web Design | Websites, Landing Pages and Redesigns | FuriaGraphic',
-                'description' => 'Custom websites, landing pages and responsive redesigns with clear structure, premium visuals and enquiry-focused paths.',
+                'description' => 'Websites, landing pages and responsive redesigns with clear structure, premium visuals and paths designed to make enquiry easier.',
             ],
         ],
         'servizi-streaming-pack' => [
             'it' => [
                 'title' => 'Streaming Pack | Overlay, Pannelli e Grafiche Live | FuriaGraphic',
-                'description' => 'Overlay, pannelli, schermate e visual coordinati per Twitch, YouTube e creator che vogliono una live più professionale e riconoscibile.',
+                'description' => 'Overlay, pannelli, schermate e visual coordinati per Twitch, YouTube e creator che vogliono una live più pulita, personale e riconoscibile.',
             ],
             'en' => [
                 'title' => 'Streaming Packs | Overlays, Panels and Live Graphics | FuriaGraphic',
-                'description' => 'Overlays, panels, screens and coordinated visuals for Twitch, YouTube and creators who want a more professional and recognizable live presence.',
+                'description' => 'Overlays, panels, screens and coordinated visuals for Twitch, YouTube and creators who want a cleaner, more personal and recognizable live presence.',
             ],
         ],
         'portfolio' => [
             'it' => [
                 'title' => 'Portfolio | Progetti Branding, Web Design e Streaming | FuriaGraphic',
-                'description' => 'Una selezione di progetti FuriaGraphic tra branding, siti web, streaming pack, locandine e comunicazione visiva su misura.',
+                'description' => 'Una selezione di progetti FuriaGraphic tra branding, siti web, streaming pack e comunicazione visiva progettati con direzione e coerenza.',
             ],
             'en' => [
                 'title' => 'Portfolio | Branding, Web Design and Streaming Projects | FuriaGraphic',
-                'description' => 'A selection of FuriaGraphic projects across branding, websites, streaming packs, posters and custom visual communication.',
+                'description' => 'A selection of FuriaGraphic projects across branding, websites, streaming packs and visual communication designed with direction and consistency.',
             ],
         ],
         'chi-siamo' => [
             'it' => [
                 'title' => 'Chi è FuriaGraphic | Studio Creativo Digitale',
-                'description' => 'Scopri FuriaGraphic: studio creativo digitale per branding, web design e streaming pack pensati per freelance, attività e creator online.',
+                'description' => 'Scopri FuriaGraphic: studio creativo digitale per identità visive, siti web e streaming pack pensati per brand, attività e creator online.',
             ],
             'en' => [
                 'title' => 'About FuriaGraphic | Digital Creative Studio',
-                'description' => 'Meet FuriaGraphic: a digital creative studio for branding, web design and streaming packs for freelancers, businesses and online creators.',
+                'description' => 'Meet FuriaGraphic: a digital creative studio for visual identities, websites and streaming packs for brands, businesses and online creators.',
             ],
         ],
         'contatti' => [
             'it' => [
                 'title' => 'Contatti | Richiedi Branding, Web Design o Streaming Pack | FuriaGraphic',
-                'description' => 'Racconta il progetto e richiedi un preventivo per branding, web design, streaming pack o una diagnosi gratuita della tua immagine online.',
+                'description' => 'Racconta il progetto e richiedi una direzione per branding, web design, streaming pack o una diagnosi gratuita della tua presenza online.',
             ],
             'en' => [
                 'title' => 'Contact | Request Branding, Web Design or Streaming Packs | FuriaGraphic',
-                'description' => 'Share your project and request a quote for branding, web design, streaming packs or a free diagnosis of your online image.',
+                'description' => 'Share your project and request direction for branding, web design, streaming packs or a free diagnosis of your online presence.',
             ],
         ],
         'privacy-policy' => [
@@ -964,7 +964,7 @@ function fg_site_end() {
             <div class="fg-contact-icon">⌘</div>
             <div class="fg-contact-text">
               <span>Discord</span>
-              <a href="https://discord.gg/dVJGyB9U2R" target="_blank" rel="noopener noreferrer"><?php echo esc_html(fg_t('Entra nel server', 'Join the server')); ?></a>
+              <a href="https://discord.gg/JDwSuKFeh8" target="_blank" rel="noopener noreferrer"><?php echo esc_html(fg_t('Entra nel server', 'Join the server')); ?></a>
             </div>
           </div>
         </div>
@@ -995,23 +995,23 @@ function fg_get_contact_catalog() {
     return [
         'branding' => [
             'label' => fg_t('Branding', 'Branding'),
-            'intro' => fg_t('Logo, identità visiva e grafiche coordinate pensate per dare alla tua attività una presenza più chiara, più forte e più riconoscibile.', 'Logos, visual identity and coordinated graphics built to give your project a clearer, stronger and more recognizable presence.'),
+            'intro' => fg_t('Logo, identità visiva e grafiche coordinate per dare al progetto una presenza più chiara, solida e riconoscibile in ogni punto di contatto.', 'Logos, visual identity and coordinated graphics built to give your project a clearer, stronger and more recognizable presence across every touchpoint.'),
             'deliverable_placeholder' => fg_t('Logo, identità visiva, social kit, materiali stampati…', 'Logo, visual identity, social kit, printed materials…'),
             'services' => [
                 'logo' => [
                     'label' => fg_t('Logo Design', 'Logo Design'),
-                    'hint' => fg_t('Per brand che hanno bisogno di un segno distintivo chiaro, equilibrato e progettato per durare.', 'For brands that need a clear, balanced and long-lasting distinctive mark.'),
-                    'preview' => fg_t('Un logo su misura pensato per dare al tuo progetto una base forte e riconoscibile.', 'A custom logo designed to give your project a strong and recognizable foundation.'),
+                    'hint' => fg_t('Per brand che hanno bisogno di un segno distintivo chiaro, equilibrato e riconoscibile nel tempo.', 'For brands that need a clear, balanced and recognizable mark built to last.'),
+                    'preview' => fg_t('Un logo su misura pensato per dare al progetto una base visiva forte, leggibile e riconoscibile.', 'A custom logo designed to give your project a strong, readable and recognizable foundation.'),
                 ],
                 'brand-identity' => [
                     'label' => fg_t('Identità visiva', 'Visual identity'),
                     'hint' => fg_t('Per progetti che hanno bisogno di un sistema visivo completo, dalla palette colori alla tipografia e allo stile generale.', 'For projects that need a complete visual system, from color palette to typography and overall style.'),
-                    'preview' => fg_t('Un’identità visiva completa costruita per portare coerenza e personalità in ogni punto di contatto.', 'A complete visual identity built to bring consistency and personality to every touchpoint.'),
+                    'preview' => fg_t('Un’identità visiva completa per portare coerenza, personalità e metodo in ogni punto di contatto.', 'A complete visual identity built to bring consistency, personality and method to every touchpoint.'),
                 ],
                 'social-print' => [
                     'label' => fg_t('Grafica social & stampa', 'Social & print graphics'),
                     'hint' => fg_t('Per contenuti social e materiali stampati che devono risultare allineati e coerenti sul piano visivo.', 'For social content and printed materials that need to feel visually aligned and coherent.'),
-                    'preview' => fg_t('Grafiche coordinate per social, stampa e materiali promozionali.', 'Coordinated graphics for social media, print and promotional materials.'),
+                    'preview' => fg_t('Grafiche coordinate per social, stampa e materiali promozionali con uno stile riconoscibile.', 'Coordinated graphics for social media, print and promotional materials with a recognizable style.'),
                 ],
             ],
             'fields' => [
@@ -1351,9 +1351,9 @@ function fg_render_project_contact_form($feedback = null, $args = []) {
       <div class="fg-contact-lite-head">
         <div>
           <div class="fg-contact-mini-kicker"><?php echo esc_html(fg_t('Preventivo via email', 'Email quote request')); ?></div>
-          <h2><?php echo esc_html(fg_t('Invia la richiesta dal sito', 'Send your request from the website')); ?></h2>
+          <h2><?php echo esc_html(fg_t('Racconta il progetto dal sito', 'Share your project from the website')); ?></h2>
         </div>
-        <p><?php echo esc_html(sprintf(fg_t('Compila il modulo: la richiesta arriva a %s con le informazioni utili per risponderti bene.', 'Fill in the form: your request goes to %s with the useful details needed for a clear reply.'), $email)); ?></p>
+        <p><?php echo esc_html(sprintf(fg_t('Compila il modulo con le informazioni essenziali: arriverà a %s e potrò risponderti con una direzione più precisa.', 'Fill in the form with the essential details: it will reach %s and I can reply with a more precise direction.'), $email)); ?></p>
       </div>
 
       <?php if (!empty($feedback['message'])) : ?>
@@ -1407,7 +1407,7 @@ function fg_render_project_contact_form($feedback = null, $args = []) {
         </div>
 
         <p class="fg-field-note fg-field-tip-inline" data-service-copy>
-          <?php echo esc_html(fg_t('Scegli categoria e servizio: mi aiuta a capire subito la richiesta.', 'Choose category and service: it helps me understand your request quickly.')); ?>
+          <?php echo esc_html(fg_t('Scegli categoria e servizio: mi aiuta a capire subito contesto, priorità e direzione migliore.', 'Choose category and service: it helps me understand context, priorities and the best direction quickly.')); ?>
         </p>
 
         <div class="fg-form-grid two-cols fg-dynamic-fields" data-dynamic-fields></div>
@@ -1440,12 +1440,12 @@ function fg_render_project_contact_form($feedback = null, $args = []) {
 
         <div class="fg-field">
           <label for="fg-deliverable"><?php echo esc_html(fg_t('Cosa ti serve?', 'What do you need?')); ?></label>
-          <input id="fg-deliverable" type="text" name="deliverable" value="<?php echo esc_attr($old_value('deliverable')); ?>" placeholder="<?php echo esc_attr(fg_t('Descrivi rapidamente cosa ti serve', 'Briefly describe what you need')); ?>">
+          <input id="fg-deliverable" type="text" name="deliverable" value="<?php echo esc_attr($old_value('deliverable')); ?>" placeholder="<?php echo esc_attr(fg_t('Es. logo, sito vetrina, overlay, restyling…', 'e.g. logo, showcase website, overlay, redesign…')); ?>">
         </div>
 
         <div class="fg-field">
           <label for="fg-messaggio"><?php echo esc_html(fg_t('Descrizione del progetto', 'Project description')); ?> *</label>
-          <textarea id="fg-messaggio" name="messaggio" required placeholder="<?php echo esc_attr(fg_t('Racconta obiettivo, stile, riferimenti, tempi e dubbi principali.', 'Share goals, style, references, timing and main questions.')); ?>"><?php echo esc_textarea($old_value('messaggio')); ?></textarea>
+          <textarea id="fg-messaggio" name="messaggio" required placeholder="<?php echo esc_attr(fg_t('Racconta obiettivo, situazione attuale, stile desiderato, riferimenti, tempi e dubbi principali.', 'Share goals, current situation, desired style, references, timing and main questions.')); ?>"><?php echo esc_textarea($old_value('messaggio')); ?></textarea>
         </div>
 
         <div class="fg-form-submit">
@@ -1454,8 +1454,8 @@ function fg_render_project_contact_form($feedback = null, $args = []) {
             <span><?php echo wp_kses_post(fg_t('Confermo di aver letto la <a href="/privacy-policy/">Privacy Policy</a> e autorizzo il trattamento dei dati per ricevere risposta alla richiesta.', 'I confirm that I have read the <a href="/privacy-policy/?lang=en">Privacy Policy</a> and authorize data processing to receive a reply.')); ?></span>
           </label>
           <div class="fg-submit-wrap">
-            <button class="fg-button is-primary" type="submit"><?php echo esc_html(fg_t('Invia richiesta', 'Send request')); ?></button>
-            <span class="fg-field-note"><?php echo esc_html(fg_t('Risposta entro 24-48 ore lavorative.', 'Reply within 24-48 business hours.')); ?></span>
+            <button class="fg-button is-primary" type="submit"><?php echo esc_html(fg_t('Invia il progetto', 'Send project')); ?></button>
+            <span class="fg-field-note"><?php echo esc_html(fg_t('Risposta chiara entro 24-48 ore lavorative.', 'Clear reply within 24-48 business hours.')); ?></span>
           </div>
         </div>
       </form>
