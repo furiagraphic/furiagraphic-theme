@@ -1,0 +1,513 @@
+/* PAGINA CHI SONO */
+/* Questo file viene caricato solo sulla pagina indicata. */
+
+
+.fg-about-grid{
+  display:grid;
+  grid-template-columns:minmax(0, 1fr) 420px;
+  gap:60px;
+  align-items:center;
+}
+
+.fg-about-copy{
+  max-width:640px;
+  margin:0 auto;
+  text-align:center;
+  align-self:center;
+}
+
+.fg-about-heading{
+  font-size:clamp(2.8rem, 4vw, 4rem);
+  line-height:1.05;
+  margin-bottom:18px;
+  text-align:center;
+  max-width:12ch;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.fg-about-copy p{
+  color:var(--fg-muted);
+  line-height:1.95;
+  margin:0 auto 18px;
+  max-width:58ch;
+  text-align:center;
+}
+
+.fg-quote-box,
+.fg-contact-form-panel,
+.fg-contact-card,
+.fg-value-card{
+  border:1px solid rgba(201,154,69,.18);
+  background:linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.015));
+  box-shadow:var(--fg-shadow);
+}
+
+.fg-quote-box{
+  position:relative;
+  padding:34px 30px;
+}
+
+.fg-quote-box::before,
+.fg-quote-box::after,
+.fg-contact-form-panel::before,
+.fg-contact-form-panel::after{
+  content:"";
+  position:absolute;
+  width:24px;
+  height:24px;
+  border-color:var(--fg-gold);
+}
+
+.fg-quote-box::before,
+.fg-contact-form-panel::before{
+  left:14px;
+  top:14px;
+  border-top:1px solid;
+  border-left:1px solid;
+}
+
+.fg-quote-box::after,
+.fg-contact-form-panel::after{
+  right:14px;
+  bottom:14px;
+  border-right:1px solid;
+  border-bottom:1px solid;
+}
+
+.fg-quote-box blockquote{
+  font-size:2rem;
+  line-height:1.5;
+  color:var(--fg-ivory);
+}
+
+.fg-quote-source{
+  margin-top:20px;
+  color:var(--fg-gold-soft);
+  font-size:.8rem;
+  font-weight:700;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+}
+
+.fg-values-section .fg-section-intro{
+  margin-bottom:34px;
+}
+
+.fg-values-grid{
+  display:grid;
+  grid-template-columns:repeat(2, minmax(0, 1fr));
+  gap:24px;
+    text-align:center;
+    align-items:center;
+}
+
+.fg-value-card{
+  padding:30px 26px 28px;
+  transition:transform var(--fg-transition), border-color var(--fg-transition), box-shadow var(--fg-transition);
+}
+
+.fg-value-card:hover{
+  transform:translateY(-4px);
+  border-color:rgba(201,154,69,.34);
+  box-shadow:0 24px 70px rgba(0,0,0,.48), 0 0 26px rgba(201,154,69,.08);
+}
+
+.fg-value-icon{
+  width:56px;
+  height:56px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:0 auto 20px;
+  border:1px solid rgba(201,154,69,.55);
+  color:var(--fg-gold-soft);
+  font-size:1.2rem;
+  background:rgba(255,255,255,.01);
+}
+
+.fg-value-card h3{
+  font-size:2rem;
+  line-height:1.06;
+  margin-bottom:12px;
+}
+
+.fg-value-card p{
+  color:var(--fg-muted);
+  line-height:1.85;
+}
+
+.fg-approach-copy{
+  max-width:860px;
+  margin:0 auto;
+  text-align:center;
+}
+
+.fg-approach-copy p{
+  color:var(--fg-muted);
+  line-height:1.95;
+  margin:18px auto 0;
+  max-width:64ch;
+}
+
+.fg-about-grid{
+  gap:80px;
+  align-items:center;
+}
+
+.fg-about-copy{
+  width:100%;
+  max-width:640px;
+  justify-self:center;
+  text-align:center;
+}
+
+.fg-about-heading{
+  line-height:1.05;
+  margin:0 auto 18px;
+  max-width:12ch;
+  text-align:center;
+}
+
+.fg-about-copy p{
+  margin:0 auto 18px;
+  max-width:58ch;
+  text-align:center;
+}
+
+/* Tablet */
+@media (max-width: 980px){
+  .fg-values-section .fg-values-grid{
+    grid-template-columns:repeat(2, minmax(0, 1fr));
+    gap:16px;
+  }
+
+  .fg-values-section .fg-value-card{
+    padding:22px 18px;
+  }
+
+  .fg-values-section .fg-value-card h3{
+    font-size:clamp(1.25rem, 2.8vw, 1.55rem);
+    line-height:1.14;
+  }
+
+  .fg-values-section .fg-value-card p{
+    font-size:.98rem;
+    line-height:1.7;
+    max-width:28ch;
+  }
+}
+
+/* Phone */
+@media (max-width: 767px){
+  .fg-values-section .fg-values-grid{
+    grid-template-columns:1fr !important;
+    gap:14px !important;
+  }
+
+  .fg-values-section .fg-value-card{
+    width:100% !important;
+    max-width:100% !important;
+    padding:20px 18px !important;
+    text-align:center !important;
+  }
+
+  .fg-values-section .fg-value-icon{
+    margin-bottom:14px !important;
+  }
+
+  .fg-values-section .fg-value-card h3{
+    font-size:clamp(1.3rem, 6vw, 1.6rem) !important;
+    line-height:1.14 !important;
+    margin:0 0 10px !important;
+    text-align:center !important;
+    max-width:20ch !important;
+    margin-left:auto !important;
+    margin-right:auto !important;
+  }
+
+  .fg-values-section .fg-value-card p{
+    font-size:.98rem !important;
+    line-height:1.68 !important;
+    text-align:center !important;
+    max-width:30ch !important;
+    margin-left:auto !important;
+    margin-right:auto !important;
+  }
+}
+
+/* Small phone */
+@media (max-width: 480px){
+  .fg-values-section .fg-values-grid{
+    grid-template-columns:1fr !important;
+    gap:12px !important;
+  }
+
+  .fg-values-section .fg-value-card{
+    padding:18px 16px !important;
+  }
+
+  .fg-values-section .fg-value-card h3{
+    font-size:clamp(1.18rem, 6.2vw, 1.38rem) !important;
+    line-height:1.16 !important;
+    max-width:18ch !important;
+  }
+
+  .fg-values-section .fg-value-card p{
+    font-size:.94rem !important;
+    line-height:1.62 !important;
+    max-width:27ch !important;
+  }
+}
+
+/* Very small phone */
+@media (max-width: 389px){
+  .fg-values-section .fg-value-card{
+    padding:16px 14px !important;
+  }
+
+  .fg-values-section .fg-value-card h3{
+    font-size:1.12rem !important;
+    line-height:1.16 !important;
+    max-width:17ch !important;
+  }
+
+  .fg-values-section .fg-value-card p{
+    font-size:.91rem !important;
+    line-height:1.58 !important;
+    max-width:25ch !important;
+  }
+}
+@media (max-width: 767px){
+  .fg-values-grid{
+    grid-template-columns: 1fr !important;
+    gap: 14px !important;
+  }
+
+  .fg-value-card{
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 20px 18px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .fg-value-icon{
+    margin: 0 auto 14px !important;
+  }
+
+  .fg-value-card h3{
+    font-size: clamp(1.3rem, 6vw, 1.6rem) !important;
+    line-height: 1.14 !important;
+    margin: 0 0 10px !important;
+    text-align: center !important;
+    max-width: 18ch !important;
+  }
+
+  .fg-value-card p{
+    font-size: .98rem !important;
+    line-height: 1.68 !important;
+    text-align: center !important;
+    max-width: 30ch !important;
+    margin: 0 auto !important;
+  }
+}
+
+/* =========================================================
+   About page tighter vertical rhythm
+========================================================= */
+.fg-about-page{
+  padding-top:64px !important;
+  padding-bottom:64px !important;
+}
+
+.fg-about-page .fg-page-title-wrap{
+  margin-bottom:26px !important;
+}
+
+.fg-about-grid{
+  gap:46px !important;
+  align-items:center !important;
+}
+
+.fg-about-copy p{
+  line-height:1.68 !important;
+  margin-bottom:12px !important;
+}
+
+.fg-about-photo-card{
+  transform:translateY(-10px);
+}
+
+.fg-values-section,
+.fg-approach-section{
+  padding-top:58px !important;
+  padding-bottom:58px !important;
+}
+
+@media (max-width: 980px){
+  .fg-about-grid{ gap:30px !important; }
+  .fg-about-photo-card{ transform:none; }
+}
+
+/* Compact override: Chi siamo needs less vertical whitespace than the generic page layout. */
+body.page-template-page-chi-siamo .fg-about-page,
+body.page-chi-siamo .fg-about-page,
+.page-template-page-chi-siamo .fg-about-page,
+.page-chi-siamo .fg-about-page{
+  padding-top:64px !important;
+  padding-bottom:72px !important;
+}
+
+body.page-template-page-chi-siamo .fg-about-page .fg-page-title-wrap,
+body.page-chi-siamo .fg-about-page .fg-page-title-wrap,
+.page-template-page-chi-siamo .fg-about-page .fg-page-title-wrap,
+.page-chi-siamo .fg-about-page .fg-page-title-wrap{
+  margin-bottom:34px !important;
+  padding-bottom:0 !important;
+}
+
+body.page-template-page-chi-siamo .fg-about-page .fg-section-kicker,
+body.page-chi-siamo .fg-about-page .fg-section-kicker,
+.page-template-page-chi-siamo .fg-about-page .fg-section-kicker,
+.page-chi-siamo .fg-about-page .fg-section-kicker{
+  margin-bottom:14px !important;
+}
+
+body.page-template-page-chi-siamo .fg-about-page .fg-page-title,
+body.page-chi-siamo .fg-about-page .fg-page-title,
+.page-template-page-chi-siamo .fg-about-page .fg-page-title,
+.page-chi-siamo .fg-about-page .fg-page-title{
+  font-size:clamp(3rem, 4.2vw, 4.7rem) !important;
+  line-height:1.08 !important;
+  max-width:980px !important;
+  margin-left:auto !important;
+  margin-right:auto !important;
+}
+
+body.page-template-page-chi-siamo .fg-about-page .fg-about-grid,
+body.page-chi-siamo .fg-about-page .fg-about-grid,
+.page-template-page-chi-siamo .fg-about-page .fg-about-grid,
+.page-chi-siamo .fg-about-page .fg-about-grid{
+  grid-template-columns:minmax(0, 1fr) 420px !important;
+  gap:72px !important;
+  align-items:start !important;
+  max-width:1040px !important;
+  margin-left:auto !important;
+  margin-right:auto !important;
+}
+
+body.page-template-page-chi-siamo .fg-about-page .fg-about-copy,
+body.page-chi-siamo .fg-about-page .fg-about-copy,
+.page-template-page-chi-siamo .fg-about-page .fg-about-copy,
+.page-chi-siamo .fg-about-page .fg-about-copy{
+  align-self:start !important;
+  padding-top:18px !important;
+  max-width:600px !important;
+}
+
+body.page-template-page-chi-siamo .fg-about-page .fg-about-copy p,
+body.page-chi-siamo .fg-about-page .fg-about-copy p,
+.page-template-page-chi-siamo .fg-about-page .fg-about-copy p,
+.page-chi-siamo .fg-about-page .fg-about-copy p{
+  line-height:1.78 !important;
+  margin-bottom:14px !important;
+}
+
+body.page-template-page-chi-siamo .fg-about-page .fg-about-photo-card,
+body.page-chi-siamo .fg-about-page .fg-about-photo-card,
+.page-template-page-chi-siamo .fg-about-page .fg-about-photo-card,
+.page-chi-siamo .fg-about-page .fg-about-photo-card{
+  width:min(100%, 420px) !important;
+  height:500px !important;
+  min-height:500px !important;
+  border-radius:28px !important;
+}
+
+body.page-template-page-chi-siamo .fg-about-page .fg-about-photo-content,
+body.page-chi-siamo .fg-about-page .fg-about-photo-content,
+.page-template-page-chi-siamo .fg-about-page .fg-about-photo-content,
+.page-chi-siamo .fg-about-page .fg-about-photo-content{
+  min-height:500px !important;
+  padding:30px 26px !important;
+}
+
+body.page-template-page-chi-siamo .fg-values-section,
+body.page-chi-siamo .fg-values-section,
+.page-template-page-chi-siamo .fg-values-section,
+.page-chi-siamo .fg-values-section,
+body.page-template-page-chi-siamo .fg-approach-section,
+body.page-chi-siamo .fg-approach-section,
+.page-template-page-chi-siamo .fg-approach-section,
+.page-chi-siamo .fg-approach-section{
+  padding-top:72px !important;
+  padding-bottom:72px !important;
+}
+
+@media (max-width: 1180px){
+  body.page-template-page-chi-siamo .fg-about-page .fg-about-grid,
+  body.page-chi-siamo .fg-about-page .fg-about-grid,
+  .page-template-page-chi-siamo .fg-about-page .fg-about-grid,
+  .page-chi-siamo .fg-about-page .fg-about-grid{
+    grid-template-columns:1fr !important;
+    gap:28px !important;
+    max-width:720px !important;
+  }
+
+  body.page-template-page-chi-siamo .fg-about-page .fg-about-copy,
+  body.page-chi-siamo .fg-about-page .fg-about-copy,
+  .page-template-page-chi-siamo .fg-about-page .fg-about-copy,
+  .page-chi-siamo .fg-about-page .fg-about-copy{
+    padding-top:0 !important;
+  }
+
+  body.page-template-page-chi-siamo .fg-about-page .fg-about-photo-card,
+  body.page-chi-siamo .fg-about-page .fg-about-photo-card,
+  .page-template-page-chi-siamo .fg-about-page .fg-about-photo-card,
+  .page-chi-siamo .fg-about-page .fg-about-photo-card{
+    width:min(100%, 440px) !important;
+    height:520px !important;
+    min-height:520px !important;
+  }
+
+  body.page-template-page-chi-siamo .fg-about-page .fg-about-photo-content,
+  body.page-chi-siamo .fg-about-page .fg-about-photo-content,
+  .page-template-page-chi-siamo .fg-about-page .fg-about-photo-content,
+  .page-chi-siamo .fg-about-page .fg-about-photo-content{
+    min-height:520px !important;
+  }
+}
+
+@media (max-width: 767px){
+  body.page-template-page-chi-siamo .fg-about-page,
+  body.page-chi-siamo .fg-about-page,
+  .page-template-page-chi-siamo .fg-about-page,
+  .page-chi-siamo .fg-about-page{
+    padding-top:46px !important;
+    padding-bottom:56px !important;
+  }
+
+  body.page-template-page-chi-siamo .fg-about-page .fg-page-title-wrap,
+  body.page-chi-siamo .fg-about-page .fg-page-title-wrap,
+  .page-template-page-chi-siamo .fg-about-page .fg-page-title-wrap,
+  .page-chi-siamo .fg-about-page .fg-page-title-wrap{
+    margin-bottom:26px !important;
+  }
+
+  body.page-template-page-chi-siamo .fg-about-page .fg-about-photo-card,
+  body.page-chi-siamo .fg-about-page .fg-about-photo-card,
+  .page-template-page-chi-siamo .fg-about-page .fg-about-photo-card,
+  .page-chi-siamo .fg-about-page .fg-about-photo-card{
+    height:460px !important;
+    min-height:460px !important;
+  }
+
+  body.page-template-page-chi-siamo .fg-about-page .fg-about-photo-content,
+  body.page-chi-siamo .fg-about-page .fg-about-photo-content,
+  .page-template-page-chi-siamo .fg-about-page .fg-about-photo-content,
+  .page-chi-siamo .fg-about-page .fg-about-photo-content{
+    min-height:460px !important;
+  }
+}
