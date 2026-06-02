@@ -39,6 +39,25 @@ $en = fg_is_en();
             <h3>FuriaGraphic</h3>
             <p><?php echo esc_html(fg_t('Logo, siti web, brand identity e grafiche digitali progettati con criterio, cura e una direzione visiva riconoscibile.', 'Logos, websites, brand identities and digital graphics designed with intention, care and a recognizable visual direction.')); ?></p>
           </div>
+    <div class="fg-page-title-wrap fg-reveal is-visible fg-page-title-wrap--left">
+      <div class="fg-section-kicker"><?php echo esc_html(fg_t('Chi è FuriaGraphic', 'About FuriaGraphic')); ?></div>
+      <h1 class="fg-page-title"><?php echo wp_kses_post(fg_t('Design digitale con <span class="fg-gold-text">direzione, ordine e carattere</span>', 'Digital design with <span class="fg-gold-text">direction, order and character</span>')); ?></h1>
+    </div>
+
+    <div class="fg-about-grid fg-reveal is-visible">
+      <div class="fg-about-copy">
+        <p><?php echo esc_html(fg_t('FuriaGraphic nasce per aiutare brand, freelance, piccole attività e creator a presentarsi meglio online. Non solo “grafiche belle”, ma identità visive, siti e asset digitali costruiti per comunicare in modo più chiaro e riconoscibile.', 'FuriaGraphic was created to help brands, freelancers, small businesses and creators present themselves better online. Not just beautiful graphics, but visual identities, websites and digital assets built to communicate with more clarity and recognition.')); ?></p>
+        <p><?php echo esc_html(fg_t('Ogni progetto parte da una domanda semplice: cosa deve percepire chi ti incontra per la prima volta? Da lì nascono scelte su stile, struttura, ritmo, testi e dettagli. Il design diventa uno strumento, non una decorazione.', 'Every project starts from a simple question: what should people feel when they meet you for the first time? From there come decisions on style, structure, rhythm, copy and details. Design becomes a tool, not decoration.')); ?></p>
+      </div>
+
+      <div class="fg-about-photo-card">
+        <img class="fg-about-photo-media" src="https://www.furiagraphic.com/wp-content/uploads/2026/04/80c3056b-e100-4d5e-a434-64e39055dbde-e1775924768388.jpg" alt="FuriaGraphic studio creativo digitale">
+        <div class="fg-about-photo-glow"></div>
+        <div class="fg-about-photo-border"></div>
+        <div class="fg-about-photo-content">
+          <div class="fg-about-photo-label">Creative Digital Studio</div>
+          <h3>FuriaGraphic</h3>
+          <p><?php echo esc_html(fg_t('Logo, siti web, brand identity e grafiche digitali progettati con criterio, cura e una direzione visiva riconoscibile.', 'Logos, websites, brand identities and digital graphics designed with intention, care and a recognizable visual direction.')); ?></p>
         </div>
       </div>
     </div>
